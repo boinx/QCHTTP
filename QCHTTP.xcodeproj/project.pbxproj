@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		984D65AB1D411DF500EB2AEC /* QCHTTPPlugIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 984D65AA1D411DF500EB2AEC /* QCHTTPPlugIn.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		984D65A61D411DF500EB2AEC /* QCHTTP.plugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCHTTP.plugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		984D65A91D411DF500EB2AEC /* QCHTTPPlugIn.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QCHTTPPlugIn.h; path = QCHTTP/QCHTTPPlugIn.h; sourceTree = SOURCE_ROOT; };
+		984D65AA1D411DF500EB2AEC /* QCHTTPPlugIn.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = QCHTTPPlugIn.m; path = QCHTTP/QCHTTPPlugIn.m; sourceTree = SOURCE_ROOT; };
+		984D65AC1D411DF500EB2AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = QCHTTP/Info.plist; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		984D65A21D411DF500EB2AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		984D659C1D411DF500EB2AEC = {
+			isa = PBXGroup;
+			children = (
+				984D65A81D411DF500EB2AEC /* QCHTTP */,
+				984D65A71D411DF500EB2AEC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		984D65A71D411DF500EB2AEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				984D65A61D411DF500EB2AEC /* QCHTTP.plugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		984D65A81D411DF500EB2AEC /* QCHTTP */ = {
+			isa = PBXGroup;
+			children = (
+				984D65A91D411DF500EB2AEC /* QCHTTPPlugIn.h */,
+				984D65AA1D411DF500EB2AEC /* QCHTTPPlugIn.m */,
+				984D65AC1D411DF500EB2AEC /* Info.plist */,
+			);
+			path = QCHTTP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		984D65A51D411DF500EB2AEC /* QCHTTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 984D65AF1D411DF500EB2AEC /* Build configuration list for PBXNativeTarget "QCHTTP" */;
+			buildPhases = (
+				984D65A11D411DF500EB2AEC /* Sources */,
+				984D65A21D411DF500EB2AEC /* Frameworks */,
+				984D65A31D411DF500EB2AEC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCHTTP;
+			productName = QCHTTP;
+			productReference = 984D65A61D411DF500EB2AEC /* QCHTTP.plugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		984D659D1D411DF500EB2AEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Achim Breidenbach";
+				TargetAttributes = {
+					984D65A51D411DF500EB2AEC = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 984D65A01D411DF500EB2AEC /* Build configuration list for PBXProject "QCHTTP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 984D659C1D411DF500EB2AEC;
+			productRefGroup = 984D65A71D411DF500EB2AEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				984D65A51D411DF500EB2AEC /* QCHTTP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		984D65A31D411DF500EB2AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		984D65A11D411DF500EB2AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				984D65AB1D411DF500EB2AEC /* QCHTTPPlugIn.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		984D65AD1D411DF500EB2AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		984D65AE1D411DF500EB2AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		984D65B01D411DF500EB2AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QCHTTP/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boinx.QCHTTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Debug;
+		};
+		984D65B11D411DF500EB2AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = QCHTTP/Info.plist;
+				INSTALL_PATH = "$(HOME)/Library/Graphics/Quartz Composer Plug-Ins";
+				PRODUCT_BUNDLE_IDENTIFIER = com.boinx.QCHTTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = plugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		984D65A01D411DF500EB2AEC /* Build configuration list for PBXProject "QCHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984D65AD1D411DF500EB2AEC /* Debug */,
+				984D65AE1D411DF500EB2AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		984D65AF1D411DF500EB2AEC /* Build configuration list for PBXNativeTarget "QCHTTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				984D65B01D411DF500EB2AEC /* Debug */,
+				984D65B11D411DF500EB2AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 984D659D1D411DF500EB2AEC /* Project object */;
+}
