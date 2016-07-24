@@ -214,7 +214,12 @@ static NSString * QCHTTPPlugInInputUpdateSignal = @"inputUpdateSignal";
 		if([URL.scheme isEqualToString:@"file"])
 		{
 			NSData *data = [NSData dataWithContentsOfURL:URL];
-			NSString *fileContent = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];	// TODO find encoding in http responds
+			NSString *fileContent = nil;
+			
+			if(data != nil)
+			{
+				fileContent = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
+			}
 			
 			if(fileContent != nil)
 			{
@@ -225,7 +230,7 @@ static NSString * QCHTTPPlugInInputUpdateSignal = @"inputUpdateSignal";
 			}
 			else
 			{
-				self.error = nil;	// TODO error needed
+				self.error = [NSError errorWithDomain:NSOSStatusErrorDomain code:paramErr userInfo:nil];
 				
 				self.downloadProgress = 0.0;
 				self.doneSignal = @NO;
