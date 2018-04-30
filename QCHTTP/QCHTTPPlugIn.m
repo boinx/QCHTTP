@@ -250,7 +250,7 @@ static NSString * QCHTTPPlugInInputUpdateSignal = @"inputUpdateSignal";
 			self.connection = [NSURLConnection connectionWithRequest:request delegate:self];
 			
 			self.downloadProgress = 0.0;
-			self.doneSignal = NO;
+			self.doneSignal = @NO;
 		}
 	}
 }
