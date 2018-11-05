@@ -385,7 +385,7 @@ static NSString * QCHTTPPlugInInputUpdateSignal = @"inputUpdateSignal";
 	if([self didValueForInputKeyChange:QCHTTPPlugInInputUpdateSignal] && self.inputUpdateSignal == YES)
 	{
 		self.HTTPLocation = self.inputHTTPLocation;
-		self.HTTPHeaders = self.HTTPHeaders;
+		self.HTTPHeaders = self.inputHTTPHeaders;
 		
 		[self performSelector:@selector(startConnection) onThread:self.connectionThread withObject:nil waitUntilDone:NO];
 	}
