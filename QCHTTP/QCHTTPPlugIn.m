@@ -133,7 +133,7 @@ static NSString * QCHTTPPlugInInputUpdateSignal = @"inputUpdateSignal";
 		NSThread *connectionThread = [[NSThread alloc] initWithTarget:self selector:@selector(startConnectionThread) object:nil];
 		self.connectionThread = connectionThread;
 		
-		connectionThread.name = @"QCHTTP.ConnectionThead";
+		connectionThread.name = @"QCHTTP.ConnectionThread";
 		[connectionThread start];
 	}
 	return self;
